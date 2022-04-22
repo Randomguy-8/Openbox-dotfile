@@ -315,6 +315,12 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
+    <keybind key="Print">
+      <action name="Execute">
+        <command>~/.config/openbox/extramenus/Screenshot.sh</command>
+      </action>
+    </keybind>
+
     <keybind key="W-e">
       <action name="Execute">
         <startupnotify>

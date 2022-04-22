@@ -132,10 +132,10 @@
         <separator/>
         
         <menu id="11" label="Status">
-            <menu execute="~/.config/openbox/pipemenus/volume.sh" id="Volume" label="Volume"/>
-            <menu execute="~/.config/openbox/pipemenus/Battery.sh" id="Battery" label="Battery"/>
-            <menu execute="~/.config/openbox/pipemenus/Backlight.sh" id="brightness" label="Brightness"/>
-            <menu execute="~/.config/openbox/pipemenus/date-menu.py" id="datetime" label="Time and Date"/>
+            <menu execute="~/.config/openbox/extramenus/Volume.sh" id="Volume" label="Volume"/>
+            <menu execute="~/.config/openbox/extramenus/Battery.sh" id="Battery" label="Battery"/>
+            <menu execute="~/.config/openbox/extramenus/Backlight.sh" id="brightness" label="Brightness"/>
+            <menu execute="~/.config/openbox/extramenus/date-menu.py" id="datetime" label="Time and Date"/>
         </menu>
         
         <menu id="10" label="System">
