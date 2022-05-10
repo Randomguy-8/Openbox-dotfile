@@ -1,0 +1,72 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=top
+  allign=left
+  margin=0
+  widthtype=percent
+  width=100
+  height=24
+  transparent=1
+  tintcolor=#162635
+  alpha=150
+  setdocktype=1
+  setpartialstrut=1
+  usefontcolor=1
+  fontcolor=#ffffff
+  usefontsize=0
+  fontsize=10
+  background=0
+  backgroundfile=/usr/share/lxpanel/images/background.png
+  align=center
+  iconsize=21
+}
+Plugin {
+  type=space
+  Config {
+    Size=6
+  }
+}
+Plugin {
+  type=deskno
+  Config {
+    BoldFont=0
+    WMLabels=1
+  }
+}
+Plugin {
+  type=space
+  Config {
+  }
+  expand=1
+}
+Plugin {
+  type=dclock
+  Config {
+    ClockFmt=It's %A, %R
+    TooltipFmt=%A %x
+    BoldFont=0
+    IconOnly=0
+    CenterText=1
+  }
+}
+Plugin {
+  type=space
+  Config {
+  }
+  expand=1
+}
+Plugin {
+  type=volume
+  Config {
+    MixerCommand=alsamixer
+    MixerCommandTerm=1
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=6
+  }
+}
